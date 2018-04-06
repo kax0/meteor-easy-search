@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   // Dependencies
   api.use(['check', 'reactive-dict', 'ecmascript', 'random', 'underscore', 'tracker', 'mongo']);
-  api.use(['peerlibrary:blaze-components@0.16.0', 'easysearch:core@2.1.10']);
+  api.use(['peerlibrary:blaze-components@0.22.0', 'easysearch:core@2.1.10']);
   api.use(['erasaur:meteor-lodash@4.0.0'], { weak: true });
 
   // Base Component
